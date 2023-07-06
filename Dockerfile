@@ -1,4 +1,4 @@
-FROM  redhat/ubi9
+FROM  centos:latest
 RUN   yum install httpd vim unzip wget -y
 ADD   https://www.free-css.com/assets/files/free-css-templates/download/page290/cryptop.zip /var/www/html
 WORKDIR /var/www/html
